@@ -1,0 +1,64 @@
+body { height: 2000px;
+    background-color:black; 
+
+}
+.menu  {
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    background-color:yellow;
+    height: 60px;
+    padding:30px;
+    width:1515px;
+    opacity: 0.8;
+    
+    
+}
+
+.big-box {
+    background-color: blue;
+    width: 600px;
+    height: 500px;
+    margin-left: 75px;
+   
+    
+    position: absolute;
+    left: 0px;
+    top: 600px;
+    z-index: -2; 
+    
+}
+ 
+.small-box {
+    background-color: red; 
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 240px;
+    
+    
+    position: absolute;
+    left: 0px;
+    top: 600px;
+    z-index: -1;
+
+}
+
+
+.small-box p {
+    color: white; 
+    text-align: Center; 
+    margin-top: 50px;
+    
+ 
+    
+}
+
+.small-box a  {
+    line-height:100px;
+    display: block;
+    text-align: center;
+    
+
+}
+
